@@ -1220,6 +1220,10 @@
         console.log("canvas2svg.addEventListener() not implemented.")
     }
 
+    ctx.resetTransform = function () {
+        
+    }
+
     //add options for alternative namespace
     if (typeof window === "object") {
         window.C2S = ctx;
