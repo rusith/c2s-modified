@@ -1220,7 +1220,7 @@
         console.log("canvas2svg.addEventListener() not implemented.")
     }
 
-    ctx.resetTransform = function () {
+    ctx.prototype.resetTransform = function () {
         
     }
 
